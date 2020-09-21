@@ -5,6 +5,11 @@ public class Human {
 
   private String surname;
 
+  //contructors
+  public Human(String name, String surname) {
+    this.name = name;
+    
+  }
 
   //methods
   public void sayHello() {
