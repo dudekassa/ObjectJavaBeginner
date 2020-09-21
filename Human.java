@@ -8,7 +8,7 @@ public class Human {
   //contructors
   public Human(String name, String surname) {
     this.name = name;
-    
+    this.surname = surname;
   }
 
   //methods
