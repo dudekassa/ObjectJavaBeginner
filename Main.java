@@ -4,6 +4,8 @@ class Main {
 
     Human przemek = new Human("Przemek", "Dudek");
 
+    przemek.introduceYourself();
+
     przemek.sayHello();
 
     przemek.sayGoodbye();

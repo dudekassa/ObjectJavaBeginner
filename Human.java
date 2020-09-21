@@ -19,6 +19,10 @@ public class Human {
   public void sayGoodbye() {
     System.out.println("Goodbye");
   }
+
+  public void introduceYourself() {
+    System.out.println(this.name + " " + this.surname);
+  }
   
   
   //setters and getters
