@@ -1,15 +1,22 @@
 public class Human {
 
+  //fields
   private String name;
 
   private String surname;
 
 
+  //methods
   public void sayHello() {
     System.out.println("Hello");
   }
+
+  public void sayGoodbye() {
+    System.out.println("Goodbye");
+  }
   
   
+  //setters and getters
   public void setName(String name) {
     this.name = name;
   }
