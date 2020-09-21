@@ -5,6 +5,11 @@ public class Human {
   private String surname;
 
 
+  public void sayHello() {
+    System.out.println("Hello");
+  }
+  
+  
   public void setName(String name) {
     this.name = name;
   }
