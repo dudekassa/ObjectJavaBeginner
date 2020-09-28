@@ -8,4 +8,10 @@ class Child extends Human {
   public void sayHello() {
     System.out.println("Siema");
   }
+
+  public void sayGoodbye() {
+    System.out.println("Nara");
+  }
+
+
 }

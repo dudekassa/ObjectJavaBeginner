@@ -1,4 +1,4 @@
-public class Human {
+abstract class Human implements HumanInterface {
 
   //fields
   private String name;
@@ -12,13 +12,6 @@ public class Human {
   }
 
   //methods
-  public void sayHello() {
-    System.out.println("Hello");
-  }
-
-  public void sayGoodbye() {
-    System.out.println("Goodbye");
-  }
 
   public void introduceYourself() {
     System.out.println(this.name + " " + this.surname);
