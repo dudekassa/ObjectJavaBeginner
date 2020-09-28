@@ -2,16 +2,14 @@ class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
 
-    
-
-    Child dziecko = new Child("Janek", "Nowak");
-
-
-    dziecko.introduceYourself();
+    Human dziecko = new Child("Janek", "Nowak");
+    Human dorosly = new Adult("Piotr", "Kowalski");
 
     dziecko.sayHello();
 
-    dziecko.sayGoodbye();
+    dorosly.sayHello();
+
+
 
   }
 }
