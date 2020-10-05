@@ -9,7 +9,11 @@ class Main {
 
     dorosly.sayHello();
 
+    List<Human> humanList = new ArrayList<>();
 
+    humanList.add(dziecko);
+
+    
 
   }
 }
