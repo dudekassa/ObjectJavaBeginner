@@ -7,6 +7,7 @@ class Main {
     System.out.println("Hello world!");
 
     Human dziecko = new Child("Janek", "Nowak");
+    dziecko.setAge(10);
     Human dziecko2 = new Child("Antuś", "Bułka");
     Human dziecko3 = new Child("Zosia", "Samosia");
     Human dorosly = new Adult("Piotr", "Kowalski");
@@ -25,6 +26,7 @@ class Main {
       System.out.println();
       human.introduceYourself();
       human.sayHello();
+      System.out.println("Mój wiek: " + human.getAge());
       System.out.println();
     }
 

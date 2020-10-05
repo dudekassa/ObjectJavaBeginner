@@ -5,6 +5,8 @@ abstract class Human implements HumanInterface {
 
   private String surname;
 
+  private int age = 0;
+
   //contructors
   public Human(String name, String surname) {
     this.name = name;
@@ -16,7 +18,7 @@ abstract class Human implements HumanInterface {
   public void introduceYourself() {
     System.out.println(this.name + " " + this.surname);
   }
-  
+
   
   //setters and getters
   public void setName(String name) {
@@ -33,6 +35,14 @@ abstract class Human implements HumanInterface {
 
   public String getSurname() {
     return this.surname;
+  }
+
+  public int getAge() {
+    return this.age;
+  }
+
+  public void setAge(int age) {
+    this.age = age;
   }
 
 }
