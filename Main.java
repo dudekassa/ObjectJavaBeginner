@@ -7,23 +7,19 @@ class Main {
     System.out.println("Hello world!");
 
     Human dziecko = new Child("Janek", "Nowak");
+    Human dziecko2 = new Child("Antuś", "Bułka");
+    Human dziecko3 = new Child("Zosia", "Samosia");
     Human dorosly = new Adult("Piotr", "Kowalski");
+    //w tym miejscu trzeba stworzyć osoby
 
-    //dziecko.sayHello();
-    //dorosly.sayHello();
-
-    // int[] arrayInt = new int[3];
-    // for (int i = 0; i < arrayInt.length; i++) {
-    //   arrayInt[i] = i;
-    // }
-    // for (int i = 0; i < arrayInt.length; i++) {
-    //   System.out.println(arrayInt[i]);
-    // }
 
     List<Human> humanList = new ArrayList<>();
 
     humanList.add(dorosly);
     humanList.add(dziecko);
+    humanList.add(dziecko2);
+    humanList.add(dziecko3);
+    //w tym miejscu trzeba dodać kolejen osoby do listy
 
     for (Human human : humanList) {
       System.out.println();
